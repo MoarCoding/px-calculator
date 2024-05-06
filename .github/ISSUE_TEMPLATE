@@ -4,7 +4,7 @@ title: "[Bug]: "
 labels: ["bug", "triage"]
 projects: ["px-calculator"]
 assignees:
-  - octocat
+  - MoarCoding
 body:
   - type: markdown
     attributes:
