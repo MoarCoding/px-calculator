@@ -1,47 +1,26 @@
 <!DOCTYPE html>
 
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
-	<head>
-		<meta charset="utf-8" />
-		<title></title>
-		<script src="script.js" defer></script>
-		<style>
-			body {
-				font-size: 16px;
-			}
-
-			textarea {
-				width: 200px;
-				display: block;
-			}
-
-			#output {
-				margin: 10px 0 0;
-				width: 500px;
-				border: 1px solid black;
-			}
-
-			.date {
-				font-weight: bold;
-				text-decoration: underline;
-				font-size: 20px;
-			}
-
-			.itemName:before {
-				content: '-';
-			}
-
-			.hoursWorkedAnomaly {
-				color: red;
-			}
-
-			.spacing {
-				height: 20px;
-			}
-		</style>
-	</head>
-	<body>
-		<textarea id="input" rows="10"></textarea>
-		<button type="button" id="collate">Sammanställ</button>
-	</body>
+<html
+  lang="en"
+  xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0" />
+    <title>PX Calculator</title>
+    <link
+      rel="stylesheet"
+      href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <textarea
+        id="input"
+        placeholder="Enter data here..."></textarea>
+      <button id="collate">Collate</button>
+      <div id="output"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
 </html>
