@@ -20,6 +20,8 @@ function parsePxData() {
         addTableRow(currentDate, projectsOfDay);
       }
 
+      throw new Error()
+      
       currentDate = currentRow;
       projectsOfDay = {};
     } else if (currentRow !== '') {
