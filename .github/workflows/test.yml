@@ -1,8 +1,0 @@
-name: Test adding workflow from scratch
-on: push
-jobs:
-  echoDate:
-    runs-on: ubuntu-latest
-    steps:
-      - run: date
-    
